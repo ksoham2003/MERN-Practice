@@ -1,0 +1,14 @@
+.skill {
+  background: #2563eb;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
