@@ -1,0 +1,28 @@
+function Filter({ filter, setFilter }) {
+  return (
+    <div style={{ margin: "20px 0" }}>
+      <button
+        onClick={() => setFilter("all")}
+        disabled={filter === "all"}
+      >
+        All
+      </button>
+
+      <button
+        onClick={() => setFilter("completed")}
+        disabled={filter === "completed"}
+      >
+        Completed
+      </button>
+
+      <button
+        onClick={() => setFilter("pending")}
+        disabled={filter === "pending"}
+      >
+        Pending
+      </button>
+    </div>
+  );
+}
+
+export default Filter;
